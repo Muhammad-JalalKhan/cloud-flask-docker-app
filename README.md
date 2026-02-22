@@ -30,16 +30,8 @@ Run:
 With docker-compose:
 - docker-compose up --build
 
-## Endpoints (examples)
-- GET /health — returns status
-- GET / — simple welcome message
-- POST /echo — returns posted JSON
-
 Example:
 - curl http://localhost:5000/health
-
-## Testing
-- pytest
 
 ## Tips
 - Use .env to keep secrets out of source control.
